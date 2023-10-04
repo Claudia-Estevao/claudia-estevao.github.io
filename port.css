@@ -16,11 +16,11 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background: linear-gradient(#8a7f78, #DDD9CE);
+    background: linear-gradient(#eec597, #f1b57d);
     background-repeat: no-repeat;
-     /*background-image: url(img/WhatsApp\ Image\ 2023-03-22\ at\ 13.58.51.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;*/
+    color: #5a0a0a;
+    font-family: 'Marcellus', serif;
+    text-decoration: none;
 }
 .imagem{
     display: flex;
@@ -38,8 +38,9 @@ body{
     justify-content: center;
     font-size: 32px;
     font-weight: 600;
-    color: #64574d;
+    color: #5a0a0a;
     font-family: 'Amatic SC', cursive;
+    
 }
 .item{
     margin: auto;
@@ -47,15 +48,15 @@ body{
     align-items: center;
     justify-content: center;
     font-family: 'Lobster Two', cursive;
-    color: rgba(232,202,179);
-    border: 1px solid rgba(232,202,179);;
-    border-radius: 50px;
-    width: 570px;
+    color: #5a0a0a;
+    border: 1px solid #3b1919;
+    border-radius: 60px;
+    width: 700px;
     height: 60px;
     margin-bottom: 7px;
-    font-size: 22px;
-    background:rgb(163, 160, 157);
-    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    font-size: 26px;
+    background:rgb(236, 210, 184);
+    box-shadow: 0 5px px rgba(0,0,0,.1);
     cursor: pointer;
 }
 .icon, .email {
@@ -64,7 +65,7 @@ body{
     width: 35px;
     border-radius: 30px;
     transition: all 0.3s ease-out;
-    box-shadow: 0 5px 5px rgba(0,0,0,.1);
+    box-shadow: 0 5px 5px rgba(133, 37, 37, 0.1);
     cursor: pointer;
     margin: 3px;
     overflow: hidden;
@@ -77,8 +78,8 @@ body{
     text-align: center;
     font-size: 22px;
     border-radius: 30px;
-    background-color: rgb(163, 160, 157);;
-    color: rgba(232,202,179); 
+    background-color: rgb(95, 7, 7);;
+    color: #e8cab3; 
     cursor: pointer;
 }
 .icon span a{
@@ -87,7 +88,7 @@ body{
     float: right;
     margin-right: 23px;
     font-weight: 100;
-    color: #64574d;
+    color: #e8cab3;
     line-height: 35px;
     font-size: 17px;
 }
@@ -102,21 +103,21 @@ body{
 }
 .icon:hover {
     width: 125px;
-    background-color: rgb(163, 160, 157);
+    background-color: #5a0a0a;
     border-radius: 20px;
 }
 
 .icon:nth-child(1):hover i{
-    background: #0e76a8;
+    background: #C4302B;
 }
 .icon:nth-child(2):hover i{
-    background: #5d1591;
+    background: #C4302B;
 }
 .icon:nth-child(3):hover i{
     background: #C4302B;
 }
 .icon:nth-child(4):hover i{
-    background: #C13584;
+    background: #C4302B;
 }
 .email:hover i{
     background: white;
@@ -133,20 +134,22 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    font-family: 'Marcellus', serif;;
-    font-size: 16px;
+    font-family: 'Marcellus', serif;
+    font-size: 20px;
     text-align: justify;
     margin-top: 35px;
-    width: 500px;
+    width: 700px;
     height: 150px;
     padding: 1.5rem 2rem;
     border-radius: 24px;
-    color: rgb(238, 232, 227);
-    background: rgb(163, 160, 157);
+    color: #5a0a0a;
+    background: #e8cab3;
     overflow: hidden;
-    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+    box-shadow: 0 3px 3px #5a0a0a;
     cursor: pointer;
+    text-decoration: none;
 }
+
 .langs{
     display: flex;
     justify-content: center;
@@ -156,13 +159,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 170px;
+    width: 100px;
     border-radius: 200px;
     margin: 5px;
-    background: rgb(163, 160, 157);
+    background: rgb(148, 93, 38);
     color: rgba(232,202,179);
-    box-shadow: 2px 2px 2px rgba(232,202,179);;
+    box-shadow: 2px 2px 2px rgba(232,202,179);
     cursor: pointer;
+    text-decoration: none;
 
 }
 .redes-sociais a{
@@ -172,31 +176,28 @@ body{
     background: transparent;
     border: none;
 }
-
-#movie{
-    padding: 1rem;
-    margin: auto;
-    display: none
-}
-#movie.active{
-    display: block;
-}
 .campos{
     margin-top: 15px;
 }
+
 h1{
     font-weight: 600;
     display: flex;
     justify-content: center;
     margin-top: 45px;
-    color: #7A695D;
+    color: #5a0a0a;
     font-family: 'Dancing Script', cursive;
+    text-decoration: none;
 }
 .projetos {
     margin: auto;
     margin-top: 40px;
     flex-direction: column;
+    color: #5a0a0a;
+    text-align: center;
+    font-family: 'Marcellus', serif;
 }
+
 .projetos a{
     text-decoration: none;
     color: rgba(232,202,179);
@@ -204,16 +205,47 @@ h1{
 
 .item:hover, .submit:hover{
     transition: 0.2s;
-    background-color: #8a7f78;
+    background-color: #d64b46;
 }
 .rodape p {
-    color: #7A695D;
-    font-size: 40px;
+    color: #5a0a0a;
+    font-size: 17px;
     display: flex;
-    justify-content: center;
     margin-top: 50px;
-    padding: 50px ;
-    font-family: 'Amatic SC', cursive;
+    padding: 10px ;
+    font-family: 'Marcellus', serif;
+    text-align: justify;
+  }
+
+  .contact-form input{
+    width: 100%;
+    padding: 8px 0px;
+    margin: 8px 0px;
+    background-color: rgba(232,202,179);
+    border: none;
+    font-family: 'Marcellus', serif;
+    color: #5a0a0a;
+    box-shadow: 0 5px 5px rgba(133, 37, 37, 0.1);
+    border-radius: 24px;
+  }
+
+  .contact-form input[type=text]{
+    height: 100px;
+    background-color: rgba(232,202,179);
+    border: none;
+    font-family: 'Marcellus', serif;
+    box-shadow: 0 5px 5px rgba(133, 37, 37, 0.1);
+    border-radius: 24px;
+  }
+
+  button{
+    background-color: rgba(232,202,179);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-family: 'Marcellus', serif;
+    color: #5a0a0a;
+    border-radius: 24px;
   }
 
    
@@ -255,9 +287,13 @@ h1{
         width: 244px;
         height: 200px;
         margin-top: 30px;
+        text-align: justify;
+        text-decoration: none;
     }
     .text p{
         font-size: 14px;
+        text-align: justify;
+        text-decoration: none;
     }
     text p{
         display: flex;
